@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="NewTestV1">
+	<listeners>
+		<listener class-name="com.newtestpackage.utilities.TestListener"/>
+	</listeners>
+	
+	
+	<test name="new test case 1">
+		<classes>
+			<class name="com.newtestpackage.testCases.TC_1" />
+		</classes>
+	</test>
+</suite>

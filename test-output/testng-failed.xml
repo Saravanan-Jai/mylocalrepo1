@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewTestV1]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.newtestpackage.utilities.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="new test case 1(failed)">
+    <classes>
+      <class name="com.newtestpackage.testCases.TC_1">
+        <methods>
+          <include name="logintest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.newtestpackage.testCases.TC_1 -->
+    </classes>
+  </test> <!-- new test case 1(failed) -->
+</suite> <!-- Failed suite [NewTestV1] -->
